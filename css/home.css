@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-image: url(../pics/wood-bkd.jpg);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh
+}
+
+#title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    background-color: rgba(165, 42, 42, 0.644);
+    color: white;
+}
+
+.dBtn {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+    margin-top: 5vh;
+}
+
+.btn {
+    cursor: pointer;
+    width: 30vw;
+    height: 50vh;
+    background: none;
+    border: none;
+    padding: 50px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uno {
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    border-radius: 50px;
+    width: 55vw;
+    height: 45vh;
+    opacity: 0.8;
+}
+
+.uno:hover {
+    box-shadow: 0 1px 30px rgba(28, 60, 65, 0.6);
+    width: 60vw;
+    height: 50vh;
+    opacity: 1;
+}

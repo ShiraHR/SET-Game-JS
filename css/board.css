@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../pics/wood-bkd.jpg);
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    width: 15vw;
+    height: 18vh;
+    margin: 1vw;
+    cursor: pointer;
+    background-size: cover;
+    border: none;
+    background: none;
+    border-radius: 27px;
+}
+
+#head {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+}
+
+#timing {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+.time {
+    display: flex;
+    font-size: x-large;
+    color: #8400ac;
+}
+
+#uScore {
+    font-size: 15px;
+}
+
+#score {
+    font-size: 30px;
+}
+
+#logoD {
+    display: block;
+    margin-top: 40px;
+}
+
+#logo {
+    width: 250px;
+    height: 120px;
+}
+
+#head_buttons {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.head_button {
+    background-color: #8400ac;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    box-shadow: 0 0 8px 1px rgb(84, 76, 87);
+}
+
+#container {
+    display: flex;
+    margin-bottom: 60px;
+    width: 95vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+}
+
+.excard {
+    display: none;
+}
+
+.all_rights {
+    width: 100%;
+    background-color: #6c008d;
+    color: white;
+    text-align: center;
+}
+
+.text_all_rights {
+    margin: 0;
+    padding: 7px;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-image: url(../pics/cards-background-lr.jpg);
+}
+
+button {
+    cursor: pointer;
+    background-color: #720195;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    box-shadow: 0 0 8px 1px rgb(84, 76, 87);
+    border: none;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #a385b0;
+}
+
+#text {
+    margin-left: 0;
+    width: 100vw;
+    height: 200px;
+    margin-top: 30vh;
+    background-color: #56056ea3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    font-size: 100px;
+}
+
+
+#btn {
+    margin-top: 100px;
+    margin-left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}

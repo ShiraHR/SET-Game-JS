@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SET - my game</title>
+    <link rel="stylesheet" href="../css/board.css">
+
+</head>
+
+<body>
+    <div id="head">
+        <div id="timing">
+            <div class="time">
+                <h1 id="minutes">09 </h1>
+                <h1>:</h1>
+                <h1 id="seconds">59 </h1>
+            </div>
+            <div class="time">
+                <div id="uScore">
+                    <h1 id="userName"></h1>
+                    <h1 id="score"></h1>
+                </div>
+            </div>
+
+        </div>
+        <div id="logoD">
+            <img id="logo" src="../pics/SET_FamilyGames_digital-logo.png">
+        </div>
+        <div id="head_buttons">
+            <button id="instructions" class="head_button" onclick="instructions()">INSTRUCTIONS</button>
+            <button id="start_game" class="head_button" onclick="startGame()">START GAME</button>
+            <button id="add3" class="head_button" onclick="add3()">ADD 3 CARDS</button>
+        </div>
+    </div>
+    <div id="container">
+        <div id="row1" class="row">
+            <button id="btn1" onclick="selectCards(event)"></button>
+            <button id="btn2" onclick="selectCards(event)"></button>
+            <button id="btn3" onclick="selectCards(event)"></button>
+            <button id="btn4" onclick="selectCards(event)"></button>
+            <button id="btn13" class="excard" onclick="selectCards(event)"></button>
+        </div>
+        <div id="row2" class="row">
+            <button id="btn5" onclick="selectCards(event)"></button>
+            <button id="btn6" onclick="selectCards(event)"></button>
+            <button id="btn7" onclick="selectCards(event)"></button>
+            <button id="btn8" onclick="selectCards(event)"></button>
+            <button id="btn14" class="excard" onclick="selectCards(event)"></button>
+        </div>
+        <div id="row3" class="row">
+            <button id="btn9" onclick="selectCards(event)"></button>
+            <button id="btn10" onclick="selectCards(event)"></button>
+            <button id="btn11" onclick="selectCards(event)"></button>
+            <button id="btn12" onclick="selectCards(event)"></button>
+            <button id="btn15" class="excard" onclick="selectCards(event)"></button>
+        </div>
+    </div>
+    <div class="all_rights">
+        <h6 class="text_all_rights">@2023 Gitty & Shira - SET Game. All rights reserved.</h6>
+    </div>
+    <script src="../js/cards.js"></script>
+    <script src="../js/game.js"></script>
+</body>
+
+</html>

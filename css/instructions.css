@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: url(../pics/wood-bkd.jpg);
+  background-size: cover;
+  width: 100vw;
+  align-items: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: #720195;
+  color: white;
+  border-radius: 20px;
+  width: 200px;
+  height: 60px;
+  box-shadow: 0 0 8px 1px rgb(84, 76, 87);
+  border: none;
+  font-size: large;
+}
+
+button:hover {
+  background-color: #a385b0;
+}
+
+#logoD {
+  margin-top: 40px;
+}
+
+#logo {
+  width: 250px;
+  height: 120px;
+}
+
+#container {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.13);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+  display: flex;
+}
+
+#instructions {
+  margin-left: 30px;
+  color: #68167c;
+
+}
+
+#paregraph {
+  margin-top: 20px;
+  width: 40vw;
+  font-size: 25px;
+}
+
+#btn {
+  display: flex;
+  justify-content: center;
+  margin-left: 4.5vw;
+}
+

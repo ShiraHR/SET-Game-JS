@@ -1,1 +1,1 @@
-# SET-Game-JS
+# JSGame

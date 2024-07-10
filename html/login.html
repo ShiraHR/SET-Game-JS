@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <button id="signButton" onclick="openSignForm1()"><span>Sign Up</span></button>
+    <form id="signUpForm" onsubmit="addUser(event)">
+        <h1>Sign up</h1>
+        <input id="name" type="text" placeholder="Name" required pattern="[A-Za-z]{2,}" maxlength="20" />
+        <input id="email" type="email" placeholder="Email" required />
+        <input id="password" required type="password" placeholder="Password" minlength="8" maxlength="20" />
+        <button type="submit" id="signButtonForm">Sign Up</button>
+        <br>
+        <div class="link">
+            <a href="Javascript:openLogForm()">log in</a>
+        </div>
+    </form>
+    <form id="logInForm" onsubmit="logIn(event)">
+        <h1>Log in</h1>
+        <input id="logName" type="text" placeholder="Name" required pattern="[A-Za-z]{2,}" maxlength="20" />
+        <input id="logPassword" type="password" placeholder="Password" required minlength="8" maxlength="20" />
+        <button type="submit" id="logButtonForm">Log in</button>
+        <div class="link">
+            <a href="Javascript:openSignForm2()">sign up</a>
+        </div>
+    </form>
+</body>
+<script src="../js/login.js"></script>
+<script src="../js/user.js"></script>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-image: url(../pics/wood-bkd.jpg);
+}
+
+#text {
+    margin-left: 0;
+    width: 100vw;
+    height: 200px;
+    margin-top: 30vh;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    font-size: 100px;
+}
